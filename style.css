@@ -1,17 +1,42 @@
-/* ページ全体を変更する */
+/* ページ全体の設定する */
 html {
-    background-color: azure;
+    background-color: #0493ba;
+    font-size: 16px;
 }
 
-/* コメント */
-h1 ,p {
+/* 常に600pxにする */
+body {
+    width: 800px;
+    margin: 0 auto;
+    padding: 0 20px 20px 20px; /* 上・右・下・左の順に指定 */
+}
+
+/* 複数要素の指定 */
+h1 {
+    font-size: 60px;
     text-align: center;
+}
+
+/* 下線の指定 */
+h2 {
+    border-bottom: 1px solid black;
+}
+
+p {
+    color: red;
+}
+
+/* 画像のセンタリング */
+img {
+    display: block;
+    margin: 0 auto;
+    width: 100%; /* 横幅ぴったりになるように自動的に調整 */
 }
 
 .container {
     margin: 0 auto;
     background-color: aliceblue;
-    background-color: #FF9500;
+    background-color: cyan;
     padding: 0 20px 20px 20px;
-    border: 5px solid black;
+    border: 2px solid black;
 }
